@@ -19,12 +19,7 @@ function Map({ className }) {
     })
   }
   return (
-    <GoogleMap
-      mapContainerClassName={className}
-      center={center}
-      zoom={10}
-      onClick={handleClick}
-    />
+ <div></div>
   )
 }
 
